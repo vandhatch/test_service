@@ -7,7 +7,7 @@ func Write(message any) {
 }
 
 func log(message any) {
-	fmt.Println("#")
+	fmt.Println("##")
 	fmt.Println(message)
-	fmt.Println("#")
+	fmt.Println("##")
 }
